@@ -11,7 +11,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4 # Check out ke repository yang kita gunakan
+      uses: actions/checkout@v4 #  Check out ke repository yang kita gunakan
 
     - name: SSH Connect
       uses: appleboy/ssh-action@v1 # Ganti dengan path tujuan di server Anda
